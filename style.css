@@ -1,0 +1,30 @@
+@media screen and (min-width: 572px){
+    article .d-flex .card:nth-child(even){
+        display: none;
+    }
+    aside .d-flex .card:nth-child(even){
+        display: none;
+    }
+    aside .seconddiv .card{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    article .d-flex .card:nth-child(2){
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    article .d-flex .card:nth-child(even){
+        display: block;
+    }
+  
+}
+
+@media screen and (min-width: 1400px){
+    aside .seconddiv .card{
+        display: block;
+    }
+}
